@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:hayashi" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Hashimoto" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Tabi" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:hayashi" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbe7a4a8-fc68-456b-a10c-d97ebcb4bba5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.GoogleStreetView_VR/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.GoogleStreetView_VR/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.GoogleStreetView_VR/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.GoogleStreetView_VR/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.GoogleStreetView_VR/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.GoogleStreetView_VR/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.GoogleStreetView_VR/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.GoogleStreetView_VR/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.GoogleStreetView_VR/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Member/Tabi/Play.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Annotations.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Member/Tabi/Play/Casher.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Annotations/Attributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Annotations/Attributes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Annotations/IMessagePackSerializationCallbackReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Annotations/IMessagePackSerializationCallbackReceiver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/BitOperations.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/BitOperations.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/BufferWriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/BufferWriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/ExtensionHeader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/ExtensionHeader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/ExtensionResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/ExtensionResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/CollectionFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/CollectionFormatter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/CollectionHelpers`2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/CollectionHelpers`2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/DateTimeFormatters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/DateTimeFormatters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/DictionaryFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/DictionaryFormatter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/DynamicObjectTypeFallbackFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/DynamicObjectTypeFallbackFormatter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/EnumAsStringFormatter`1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/EnumAsStringFormatter`1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/GenericEnumFormatter`1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/GenericEnumFormatter`1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/IMessagePackFormatter`1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/IMessagePackFormatter`1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/IgnoreFormatter`1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/IgnoreFormatter`1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/MultiDimensionalArrayFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/MultiDimensionalArrayFormatter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/NilFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/NilFormatter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/NullableFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/NullableFormatter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/PrimitiveObjectFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/PrimitiveObjectFormatter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/StandardClassLibraryFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/StandardClassLibraryFormatter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/TypelessFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/TypelessFormatter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/UnsafeBinaryFormatters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Formatters/UnsafeBinaryFormatters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/HashCode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/HashCode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/IFormatterResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/IFormatterResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/AsymmetricKeyHashTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/AsymmetricKeyHashTable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/AutomataDictionary.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/AutomataDictionary.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/ByteArrayStringHashTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/ByteArrayStringHashTable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/CodeGenHelpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/CodeGenHelpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/DateTimeConstants.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/DateTimeConstants.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/DynamicAssembly.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/DynamicAssembly.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/ExpressionUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/ExpressionUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/FarmHash.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/FarmHash.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/GuidBits.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/GuidBits.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/ILGeneratorExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/ILGeneratorExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/ReflectionExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/ReflectionExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/RuntimeTypeHandleEqualityComparer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/RuntimeTypeHandleEqualityComparer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/Sequence`1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/Sequence`1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/ThreadsafeTypeKeyHashTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/ThreadsafeTypeKeyHashTable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/TinyJsonReader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/TinyJsonReader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/UnsafeMemory.Low.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Internal/UnsafeMemory.Low.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.Helper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.Helper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.Safe.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.Safe.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.Safe32.Dirty.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.Safe32.Dirty.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.Safe64.Dirty.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.Safe64.Dirty.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.Unsafe.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.Unsafe.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.Unsafe32.Dirty.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.Unsafe32.Dirty.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.Unsafe64.Dirty.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.Unsafe64.Dirty.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/LZ4/LZ4Codec.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePack.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePack.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackCode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackCode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackCompression.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackCompression.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackReader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackReader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackSecurity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackSecurity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackSerializationException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackSerializationException.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackSerializer.Json.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackSerializer.Json.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackSerializer.NonGeneric.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackSerializer.NonGeneric.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackSerializer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackSerializer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackSerializerOptions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackSerializerOptions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackStreamReader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackStreamReader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackWriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/MessagePackWriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Nil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Nil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/AttributeFormatterResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/AttributeFormatterResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/BuiltinResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/BuiltinResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/CachingFormatterResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/CachingFormatterResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/CompositeResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/CompositeResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/ContractlessReflectionObjectResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/ContractlessReflectionObjectResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/DynamicEnumAsStringResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/DynamicEnumAsStringResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/DynamicEnumResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/DynamicEnumResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/DynamicGenericResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/DynamicGenericResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/DynamicObjectResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/DynamicObjectResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/DynamicUnionResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/DynamicUnionResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/NativeDateTimeResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/NativeDateTimeResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/NativeDecimalResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/NativeDecimalResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/NativeGuidResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/NativeGuidResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/PrimitiveObjectResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/PrimitiveObjectResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/StandardResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/StandardResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/StaticCompositeResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/StaticCompositeResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/TypelessContractlessStandardResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/TypelessContractlessStandardResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/TypelessObjectResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Resolvers/TypelessObjectResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/SafeBitConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/SafeBitConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/SequencePool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/SequencePool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/SequenceReader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/SequenceReader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/SequenceReaderExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/SequenceReaderExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/StreamPolyfillExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/StreamPolyfillExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/StringEncoding.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/StringEncoding.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/T4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/T4/ForceSizePrimitiveFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/T4/ForceSizePrimitiveFormatter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/T4/MessagePackReader.Integers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/T4/MessagePackReader.Integers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/T4/PrimitiveFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/T4/PrimitiveFormatter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/T4/TupleFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/T4/TupleFormatter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/T4/UnsafeMemory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/T4/UnsafeMemory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/T4/ValueTupleFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/T4/ValueTupleFormatter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/ThisLibraryExtensionTypeCodes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/ThisLibraryExtensionTypeCodes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Unity/Extension.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Unity/Extension/UnityBlitResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Unity/Extension/UnityBlitResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Unity/Extension/UnsafeBlitFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Unity/Extension/UnsafeBlitFormatter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Unity/Formatters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Unity/Formatters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Unity/MessagePackWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Unity/MessagePackWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Unity/UnityResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Unity/UnityResolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Utilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/Utilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Libraries/MessagePack/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Member/Tabi/TestMic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Member/Tabi/TestMic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AvatarSelect/AvatarHolder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AvatarSelect/AvatarHolder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AvatarSelect/AvatarSelectManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AvatarSelect/AvatarSelectManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AvatarSelect/Installers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Member/Tabi/Play/Installers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AvatarSelect/Installers/AvatarSelectInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AvatarSelect/Installers/AvatarSelectInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AvatarSelect/PhoneObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AvatarSelect/PhoneObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HostSetup.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HostSetup/HostSetupManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HostSetup/HostSetupManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HostSetup/Installers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HostSetup/Installers/HostSetupInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HostSetup/Installers/HostSetupInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Matching.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Matching/Installers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Matching/Installers/MatchingInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Matching/Installers/MatchingInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Matching/MatchingHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Matching/MatchingHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/AvatarHub.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/AvatarHub/AvatarSender.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/AvatarHub/AvatarSender.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/AvatarHub/AvaterReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/AvatarHub/AvaterReceiver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/ClientHubBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/ClientHubBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/Locationhub.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/Locationhub/LocationReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/Locationhub/LocationReceiver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/Locationhub/LocationSender.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/Locationhub/LocationSender.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/Locationhub/NetworkTestInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/Locationhub/NetworkTestInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/MatchingManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/MatchingManager/MatchingManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/MatchingManager/MatchingManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/MemberTypeHub.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/MemberTypeHub/MemberTypeReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/MemberTypeHub/MemberTypeReceiver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/MemberTypeHub/MemberTypeSender.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/MemberTypeHub/MemberTypeSender.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/VoiceChatHub.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/VoiceChatHub/VoiceChatReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/VoiceChatHub/VoiceChatReceiver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/VoiceChatHub/VoiceChatSender.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/VoiceChatHub/VoiceChatSender.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Play.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/Casher.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Play/Casher.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/Installers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/Installers/PlaySceneInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/Installers/PlaySceneInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/MainPlayerAttacher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/MainPlayerAttacher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/PlayerControllers/AvatarSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/PlayerControllers/AvatarSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/PlayerControllers/CubemapUpdater.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/PlayerControllers/CubemapUpdater.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/PlayerControllers/PlayerMoveHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/PlayerControllers/PlayerMoveHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/PlayerControllers/PositionUpdater.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/PlayerControllers/PositionUpdater.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/PlayerControllers/ViewRotater.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/PlayerControllers/ViewRotater.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/PushInterfaces/IAvatarPusher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/PushInterfaces/IAvatarPusher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/PushInterfaces/IVoiceDataPusher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Play/PushInterfaces/IVoiceDataPusher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Project.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Project/ApplicationQuitHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Project/ApplicationQuitHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Project/Installer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Project/Installer/GlobalInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Project/Installer/GlobalInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Project/SceneLoad.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Project/SceneLoad/Buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Project/SceneLoad/Buttons/LoadMatchingButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Project/SceneLoad/Buttons/LoadMatchingButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Project/SceneLoad/SceneManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Project/SceneLoad/SceneManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ready/LoadingAnim.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ready/LoadingAnim.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ready/MatchingUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ready/MatchingUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ready/MouseOnButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ready/MouseOnButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ready/RestartButtonCommands.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ready/RestartButtonCommands.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/Hubs/AvatarHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ServerShared/Hubs/AvatarHub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/Hubs/LocationHub.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/Hubs/LocationHub.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/Hubs/MatchinHub.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/Hubs/MatchinHub.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/Hubs/MemberTypeHub.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/Hubs/MemberTypeHub.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/Hubs/VoiceChatHub.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/Hubs/VoiceChatHub.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/MessagePackObject/LocationData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ServerShared/MessagePackObject/LocationData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/MessagePackObject/MemberType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/MessagePackObject/MemberType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/MessagePackObject/RoomToken.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/MessagePackObject/RoomToken.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/MessagePackObject/VoiceMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ServerShared/MessagePackObject/VoiceMessage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Setup.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Setup/SearchInitialLocationManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Setup/SearchInitialLocationManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceChat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceChat/MicRecorder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceChat/MicRecorder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceChat/OpusCodeSetting.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceChat/OpusCodeSetting.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceChat/OpusDeserializer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceChat/OpusDeserializer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceChat/OpusSelializer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceChat/OpusSelializer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceChat/VoiceChatInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceChat/VoiceChatInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Wait.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Wait/WaitInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Wait/WaitInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Wait/WaitManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Wait/WaitManager.cs.meta" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ServerShared/Hubs/AvatarHub.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Member/Tabi/LocationData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ServerShared/MessagePackObject/LocationData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ServerShared/Hubs/AvatarHub.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l8kS6M4CQIIWLhtxorhioFxUlN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbe7a4a8-fc68-456b-a10c-d97ebcb4bba5" name="Default Changelist" comment="" />
+      <created>1606986113801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606986113801</updated>
+      <workItem from="1606986135914" duration="2040000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="866" y="-909" width="672" height="678" key="search.everywhere.popup" timestamp="1606986762787">
+      <screen x="179" y="-1152" width="2048" height="1112" />
+    </state>
+    <state x="866" y="-909" width="672" height="678" key="search.everywhere.popup/0.0.1216.771/179.-1152.2048.1112@179.-1152.2048.1112" timestamp="1606986762787" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+開発メモ
+
+○チェック事項
+・UI判定
+・はてなつけてヌルチェックできるのか？
+
+・
+
+Document
+https://docs.google.com/document/d/1owqkFQpCK5aiujxZD2IxYQTf7Uf7c9BlisxfAJWZHkE/edit#
+
+
