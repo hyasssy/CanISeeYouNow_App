@@ -8,7 +8,7 @@ public class PassJson{
     public string password;
 }
 public static class CheckPassword{
-    const string DATAURL = "https://hyasssy.tokyo/data/cisyn_data.json";
+    const string DATAURL = "https://hyasssy.github.io/CanISeeYouSow_App/data/cisyn_data.json";
     public static async UniTask<bool> CollatePassWord(string inputPass, Action<float> progress){
         using(var uwr = UnityWebRequest.Get(DATAURL)){
             var request = uwr.SendWebRequest();
