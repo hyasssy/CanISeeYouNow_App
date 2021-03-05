@@ -11,6 +11,7 @@ public class RoomJoinHandler : MonoBehaviour
     [SerializeField] Button _joinButtonNormal; //UniRXの機能で、ボタンをここに参照させると、オブザーバブルに設定できる。
     [SerializeField] Button _joinButtonShow;
     [SerializeField] PhotonMatchingManager _matchingManager;
+    [SerializeField] GameObject _passwordCaution;
     bool flag = false;
 
     void Start()
@@ -50,6 +51,7 @@ public class RoomJoinHandler : MonoBehaviour
                     }
                     if(!result){
                         _password.text = "Input correct password";
+                        _passwordCaution.SetActive(true);
                         return;
                     }
                     if(flag) return;

@@ -771,6 +771,7 @@ MonoBehaviour:
   _joinButtonNormal: {fileID: 2085658496}
   _joinButtonShow: {fileID: 1240521415}
   _matchingManager: {fileID: 6174525098731659042}
+  _passwordCaution: {fileID: 1701371622}
 --- !u!1 &514004805
 GameObject:
   m_ObjectHideFlags: 0
@@ -2534,12 +2535,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '*The password will be changed without notice to manage the play status.
-    If you want current password, please contact us. ->hyasssy@gmail.com
+  m_Text: '*The password will be changed regularly without notice.
 
-    *If
-    another pair of players is playing at the same time, you will not be able to
-    play.'
+    If you want
+    the current password, please contact: hyasssy@gmail.com
+
+    *If another pair
+    of players is already playing, you will not be able to play.'
 --- !u!222 &1331447324
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3169,12 +3171,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1701371623}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: passwordCaution
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1701371623
 RectTransform:
   m_ObjectHideFlags: 0

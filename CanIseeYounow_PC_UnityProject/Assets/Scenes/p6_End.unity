@@ -393,7 +393,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &147382111
 RectTransform:
   m_ObjectHideFlags: 0
@@ -685,7 +685,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The Beginning
+  m_Text: The beginning
 --- !u!222 &911917396
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1073,12 +1073,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.92
-  m_Text: "However, half a year has passed since then and none could expect that
-    the situation of all world has completely changed. It is sure that I still have
-    connection on Internet with them though, it is no longer possible to meet them
-    again in actual places. The physical distance between us has separated us absolutely.\nAt
-    that time, I realized that I sincerely want to meet them again.\n\L\n-Yuto Hayashi
-    2020.Jun."
+  m_Text: "Albeit good or bad, that is what it\u2019s like to meet people while traveling
+    in this day and age. However, no one could have predicted that the situation
+    for the entire world would be totally different six months later. While we are
+    still connected online, meeting in actual places is no longer possible. The physical
+    distance between us has separated us absolutely. And with that new reality, I
+    desired with more sincerity than ever before to meet people again.\n\nYuto Hayashi\nJune
+    2020"
 --- !u!222 &1160255840
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1104,7 +1105,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 634, y: 292}
+  m_SizeDelta: {x: 634, y: 322}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1384895636
 GameObject:
@@ -1408,21 +1409,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.92
-  m_Text: "The Beginning\n2019 Summer, I took a journey crossing Eurasian continent.\nI
-    was fascinated by \u201CMidnight Express\u201D written by Kotaro Sawaki, which
-    is Japanese legendary travel memoir for backpackers. I traced the way he walked
-    50 years ago helped by meeting new people. I am sure that what has changed the
-    most in this 50 years should be smartphone and Internet.\nAlmost all travelers
-    have come to search the way to the destination on GoogleMap, then the view on
-    GoogleMap is always preceding the position of their body now.\nAnd the value
-    of meeting new person in travel has also changed since we started to exchange
-    contact information of SNS. When I left a town, I could know what they are doing
-    at the time on instagram. Furthermore, if I really hope to do so, I could meet
-    them again whenever I want.\nActually it sometimes happened in my travel to meet
-    them again. At a pub in London, at a country station in western Germany, at a
-    coast in southern Turkey and so on I achieved to meet friends again in such way
-    (of course I also used GoogleMap).\nAside from whether it is good or bad, to
-    meet somebody in travel in this age is like that."
+  m_Text: "In summer 2019, I took a journey across the Eurasian continent. I was
+    fascinated by Kotaro Sawaki\u2019s \u201CMidnight Express,\u201D the legendary
+    Japanese travel memoir for backpackers. I traced the route that he walked 50
+    years ago with help from people I met along the way.\nI am sure the biggest change
+    over this past 50 years is the arrival of smartphones and the internet. Now,
+    most travelers find their destinations and routes using Google Maps, which means
+    the view on Google Map precedes the location of one\u2019s own body. \nAlso,
+    the significance of meeting new people while traveling has changed, since we
+    can exchange social media contact info. I can see what people are doing on Instagram
+    even after I leave a place. Furthermore, if I really wanted to, I could go back
+    and meet them again whenever. I have actually met up with old acquaintances again
+    at a pub in London, a countryside train station in western Germany, and along
+    the coast in southern Turkey (of course, always using Google Maps)."
 --- !u!222 &1620449184
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1728,7 +1727,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -187}
-  m_SizeDelta: {x: 634, y: 262}
+  m_SizeDelta: {x: 634, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2031344150
 MonoBehaviour:
@@ -1776,20 +1775,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.92
-  m_Text: 'Can I see You now?
-
-
-    Director : Yuto Hayashi
-
-    Engineer : Tabi
-    Morinaga
-
-    Tools&Libraries : Unity, Adobe, Google, Photon
-
-
-    This artwork
-    is properly licensed to use "UnityChan"(3D model), "ProNamaChan"(3D model), "From
-    the new world"(sound) and the other all materials.'
+  m_Text: "Can I see You now?\n\nDirector : Yuto Hayashi\nEngineer : Tabi Morinaga\nTools&Libraries
+    : Unity, Adobe, Google, Photon\n\nAll materials are licensed, including UnityChan
+    (3D model), ProNamaChan (3D model) and \u201CFrom the new world\u201D (audio)."
 --- !u!222 &2031344152
 CanvasRenderer:
   m_ObjectHideFlags: 0
