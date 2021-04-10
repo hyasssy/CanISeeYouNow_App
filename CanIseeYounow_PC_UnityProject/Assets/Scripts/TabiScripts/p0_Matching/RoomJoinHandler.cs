@@ -2,11 +2,14 @@
 using UnityEngine.UI;
 using UniRx;
 using Cysharp.Threading.Tasks;
+using ExitGames.Client.Photon;
+using Photon.Pun;
+using Photon.Realtime;
 
 public class RoomJoinHandler : MonoBehaviour
 {
     [SerializeField] InputField _roomNameInput;
-    [SerializeField] InputField _password;
+    // [SerializeField] InputField _password;
 
     [SerializeField] Button _joinButtonNormal; //UniRXの機能で、ボタンをここに参照させると、オブザーバブルに設定できる。
     [SerializeField] Button _joinButtonShow;
@@ -26,7 +29,7 @@ public class RoomJoinHandler : MonoBehaviour
                 .Where(_ => !string.IsNullOrWhiteSpace(_roomNameInput.text))
                 .Subscribe(_ =>
                 {
-                    if(!_matchingManager.IsConnected) return;//ロビーにつながってなかったらリターン
+                    if (!_matchingManager.IsConnected) return;//ロビーにつながってなかったらリターン
                     Button[] activeButtons = FindObjectsOfType<Button>();
                     foreach (Button b in activeButtons) b.interactable = false;
                     Toggle[] activeToggles = FindObjectsOfType<Toggle>();
@@ -40,26 +43,30 @@ public class RoomJoinHandler : MonoBehaviour
             _joinButtonShow.OnClickAsObservable()
                 .Subscribe(async _ =>
                 {
-                    if(!_matchingManager.IsConnected) return;//ロビーにつながってなかったらリターン
+                    if (!_matchingManager.IsConnected) return;//ロビーにつながってなかったらリターン
                     bool result;
-                    try{
-                        result = await CheckPassword.CollatePassWord(_password.text, (progress) => Debug.Log("進捗(0-1)="+progress));
+                    try
+                    {
+                        result = await CheckPassword.CollatePassWord(/*_password.text*/"pass", (progress) => Debug.Log("進捗(0-1)=" + progress));
                     }
-                    catch{
+                    catch
+                    {
                         Debug.Log("パスワードチェックシステムエラー");
                         result = false;
                     }
-                    if(!result){
-                        _password.text = "Input correct password";
+                    if (!result)
+                    {
+                        // _password.text = "Input correct password";
                         _passwordCaution.SetActive(true);
                         return;
                     }
-                    if(flag) return;
+                    if (flag) return;
                     flag = true;
                     Button[] activeButtons = FindObjectsOfType<Button>();
                     foreach (Button b in activeButtons) b.interactable = false;
                     Toggle[] activeToggles = FindObjectsOfType<Toggle>();
                     foreach (Toggle t in activeToggles) t.interactable = false;
+                    // var list = RoomInfo
                     _matchingManager.JoinOrCreateRoom("special");
                 })
                 .AddTo(gameObject);

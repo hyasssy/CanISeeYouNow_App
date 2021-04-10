@@ -7,7 +7,7 @@ using UniRx;
 using Cysharp.Threading.Tasks;
 
 //値を飛ばすのはここだけ
-public class  PhotonMatchingManager : MonoBehaviourPunCallbacks, IMatchingManager
+public class PhotonMatchingManager : MonoBehaviourPunCallbacks, IMatchingManager
 {
     const string GAME_VERSION = "Ver1.0";//形式的に入れている
 
@@ -51,7 +51,7 @@ public class  PhotonMatchingManager : MonoBehaviourPunCallbacks, IMatchingManage
         _onAnotherPlayerLoadScene.Value = scene;
     }
 
-    public bool IsConnected {get; private set; } = false;
+    public bool IsConnected { get; private set; } = false;
     public override void OnConnectedToMaster()//ロビーにつながったときに呼ばれる
     {
         Debug.Log("Lobby Connect");
@@ -82,7 +82,8 @@ public class  PhotonMatchingManager : MonoBehaviourPunCallbacks, IMatchingManage
         Debug.Log($"Join {Room.Name}");
         Player = PhotonNetwork.LocalPlayer;
         var debugParameter = Resources.Load<DebugParameter>("DebugParameter");
-        if(IsHost){
+        if (IsHost)
+        {
             var isUseVoice = debugParameter.EventType == 0 || debugParameter.IsUseVoiceChat;//normalタイプの時か、ボイスチャット使うって明示されてる時
             debugParameter.VoiceChatSwitch(isUseVoice);
             var photonView = GetComponent<PhotonView>();
@@ -97,9 +98,11 @@ public class  PhotonMatchingManager : MonoBehaviourPunCallbacks, IMatchingManage
         _onJoin.OnNext(Unit.Default);
     }
     [PunRPC]
-    void PlayPhotonVoice(bool isUseVoice){//guest側の処理
+    void PlayPhotonVoice(bool isUseVoice)
+    {//guest側の処理
         var debugParameter = Resources.Load<DebugParameter>("DebugParameter");
-        if(isUseVoice){
+        if (isUseVoice)
+        {
             PhotonNetwork.Instantiate("PhotonVoice", Vector3.zero, Quaternion.identity);
         }
         debugParameter.VoiceChatSwitch(isUseVoice);
@@ -171,14 +174,16 @@ public class  PhotonMatchingManager : MonoBehaviourPunCallbacks, IMatchingManage
         return PhotonNetwork.Instantiate(name, Vector3.zero, Quaternion.identity);
     }
 
-    public void NoteSpawner(int noteNumber){//同じノートを再生するための処理。ゲスト側に処理を送る
-        if(!IsHost) return;
+    public void NoteSpawner(int noteNumber)
+    {//同じノートを再生するための処理。ゲスト側に処理を送る
+        if (!IsHost) return;
         var photonView = GetComponent<PhotonView>();
         photonView.RPC(nameof(NoteSpawn), RpcTarget.Others, noteNumber);
     }
     [PunRPC]
-    void NoteSpawn(int noteNumber){
-        if(IsHost) return;
+    void NoteSpawn(int noteNumber)
+    {
+        if (IsHost) return;
         FindObjectOfType<NoteSpawner>().AppearNote(noteNumber);
     }
 
