@@ -2,9 +2,6 @@
 using UnityEngine.UI;
 using UniRx;
 using Cysharp.Threading.Tasks;
-using ExitGames.Client.Photon;
-using Photon.Pun;
-using Photon.Realtime;
 
 public class RoomJoinHandler : MonoBehaviour
 {
@@ -16,6 +13,7 @@ public class RoomJoinHandler : MonoBehaviour
     [SerializeField] PhotonMatchingManager _matchingManager;
     [SerializeField] GameObject _passwordCaution;
     bool flag = false;
+
 
     void Start()
     {

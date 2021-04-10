@@ -14,7 +14,7 @@ public class PhotonMatchingManager : MonoBehaviourPunCallbacks, IMatchingManager
     //ルームオプションのプロパティー
     static RoomOptions _roomOptions = new RoomOptions()
     {
-        MaxPlayers = 2, //0だと人数制限なし
+        MaxPlayers = 1, //0だと人数制限なし
         IsOpen = true, //部屋に参加できるか
         IsVisible = true, //この部屋がロビーにリストされるか
     };
@@ -64,9 +64,20 @@ public class PhotonMatchingManager : MonoBehaviourPunCallbacks, IMatchingManager
         if (IsConnected)
             PhotonNetwork.JoinOrCreateRoom(roomName, _roomOptions, TypedLobby.Default);
     }
+    int roomNum = 4;
+    int i = 2;
     public override void OnJoinRoomFailed(short returnCode, string message)
     {
-        Debug.LogWarning("ミスったよん。");
+        Debug.LogWarning("Rejected to join a room.");
+        if (i < roomNum)
+        {
+            JoinOrCreateRoom("room" + i.ToString());
+            i++;
+        }
+        else
+        {
+            Debug.LogWarning("これ以上アクセスできません。");
+        }
     }
 
     public Room Room { get; private set; }
