@@ -64,6 +64,10 @@ public class PhotonMatchingManager : MonoBehaviourPunCallbacks, IMatchingManager
         if (IsConnected)
             PhotonNetwork.JoinOrCreateRoom(roomName, _roomOptions, TypedLobby.Default);
     }
+    public override void OnJoinRoomFailed(short returnCode, string message)
+    {
+        Debug.LogWarning("ミスったよん。");
+    }
 
     public Room Room { get; private set; }
     public Player Player { get; private set; }
