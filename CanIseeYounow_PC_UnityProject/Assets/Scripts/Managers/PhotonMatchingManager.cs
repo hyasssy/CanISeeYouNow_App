@@ -14,7 +14,7 @@ public class PhotonMatchingManager : MonoBehaviourPunCallbacks, IMatchingManager
     //ルームオプションのプロパティー
     static RoomOptions _roomOptions = new RoomOptions()
     {
-        MaxPlayers = 1, //0だと人数制限なし
+        MaxPlayers = 2, //0だと人数制限なし
         IsOpen = true, //部屋に参加できるか
         IsVisible = true, //この部屋がロビーにリストされるか
     };
